@@ -43,9 +43,9 @@ The original dataset contains an extract from a database with the following char
 36. tickets_call_we_need - sum of all tickets
 37. TK_solved_per - average % control test completion
 38. AVG_TK_verno - average % right test completion
-39. payment_type - payment type
-40. agreement_status - agreement status
-41. payment_place - payment placr
-42. term_percent_man - percentage of terminated contracts with the manager
-43. target - is agreement terminated of being terminated (1 - yes; 0 - no)
-44. termination_case - are there any termaniton cases within the student
+39. payment_type - payment type from CRM_DB
+40. agreement_status - agreement status from CRM_DB
+41. payment_place - payment place from CRM_DB
+42. term_percent_man - percentage of terminated contracts with the manager from CRM_DB
+43. target - is agreement terminated of being terminated (1 - yes; 0 - no) from CRM_DB
+44. termination_case - are there any termaniton cases within the student from CRM_DB
