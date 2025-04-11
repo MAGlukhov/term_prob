@@ -55,12 +55,12 @@ The original dataset contains an extract from a database with the following char
 3. **Recall**
 4. **F1-score**
 
-||Accuracy|Precision|Recall|F1-score|Average cross validation F1-score|
-|-|-|-|-|-|-|
-|**Logistic Regression**|1|1|1|1|1|
-|**Random Forest**|1|1|1|1|1|
-|**XGboost**|1|1|1|1|1|
-|**Catboost**|1|1|1|1|1|
-|**KNN**|1|1|1|1|1|
+||Precision|Recall|F1-score|Average cross validation F1-score|
+|-|-|-|-|-|
+|**Logistic Regression**|0,83|0,82|0,82|0,81|
+|**Random Forest**|0,83|0,83|0,83|0,824|
+|**XGboost**|0,84|0,84|0,84|0,832|
+|**Catboost**|0,85|0,85|0,85|**0,8406**|
+|**KNN**|0,81|0,81|0,81|0,804|
 
-**The best metrics belong to ________. That is why the pipeline was implemented with this model**
+**The best metrics belong to Catboost model. That is why the pipeline was implemented with this model**
