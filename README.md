@@ -64,3 +64,9 @@ The original dataset contains an extract from a database with the following char
 |**KNN**|0,81|0,81|0,81|0,804|
 
 **The best metrics belong to Catboost model. That is why the pipeline was implemented with this model**
+
+To use ready model use this code:
+```
+import joblib
+loaded_pipeline = joblib.load('pipeline_model_20250414_010331.joblib')
+```
